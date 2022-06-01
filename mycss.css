@@ -47,6 +47,19 @@ p,h1 {
     background-position: left;
 }
 
+.copyright-text a {
+    color: var(--txt)
+}
+
+.copyright-text {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+}
+
 .logo {
     width: 15%;
     height: auto;
@@ -98,6 +111,8 @@ input, textarea {
     border: 1px solid;
     border-radius: 4px;
     border-color: var(--txt);
+    color: rgb(1 59 85);
+    font-weight: bold;
 }
 
 input:focus, textarea:focus {
@@ -138,4 +153,13 @@ button:active {
 a {
     color: rgb(1 59 85);
     font-weight: bolder;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hsl(199, 97%, 31%);
 }
