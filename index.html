@@ -26,7 +26,7 @@
             </div>
             <div class="form-container">
                 <h1>Let's do this!</h1>
-                <form>
+                <form id="my-form" action="#">
                     <div>
                         <label for="fname">First Name</label>
                         <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
@@ -51,8 +51,12 @@
                         <label for="confirmpw">Confirm Password</label>
                         <input type="password" id="confirmpw" name="confirmpassword" placeholder="Confirm your password" required>
                     </div>
+                    <div>
+                    </div>
                 </form>
             </div>
+            <button type="submit" form="mr-form"> Create an Account </button>
+            <p class="login-txt">Already have an account? <a>Log in</a></p>
         </div>
     </div>
 </body>

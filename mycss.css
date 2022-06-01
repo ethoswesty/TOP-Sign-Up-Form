@@ -63,9 +63,10 @@ p,h1 {
 .top-text{
     font-size: 2rem;
     padding: 2rem;
+    width: 75%;
 }
 
-p:last-child{
+p:nth-child(3){
     padding-top: 4rem;
 }
 
@@ -104,4 +105,37 @@ input:focus, textarea:focus {
     outline: none;
     border: 2px solid var(--txt);
     box-shadow: 0 0 2px var(--txt);
+}
+
+button {
+    margin: 2rem;
+    padding: 1rem 6rem;
+    background-color: rgb(1 59 85);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    box-shadow: 0 4px 4px -2px rgb(1 59 85);
+}
+
+button:hover {
+    background-color:hsl(199, 97%, 31%);
+    cursor: pointer;
+}
+
+button:active {
+    background-color:hsl(199, 100%, 38%);
+    cursor: pointer;
+}
+
+.login-txt {
+    padding-left: 2rem;
+    font-size: 1.4rem;
+}
+
+a {
+    color: rgb(1 59 85);
+    font-weight: bolder;
 }
